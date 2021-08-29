@@ -62,7 +62,7 @@ namespace AppParcial1Scripting
 
         // For getting all nodes with Node.cs and storing them in the dictionary
         private void LoadAllBlocks()
-        {.
+        {
             foreach (Node node in nodes)
             {
                 (int, int) gridPos = node.GetPos();
